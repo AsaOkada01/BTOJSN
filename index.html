@@ -35,7 +35,8 @@
   .sub{margin-top:14px;font-weight:700;font-size:clamp(13px,3.6vw,17px);
     color:#cfd6e6;max-width:30ch;line-height:1.7;}
   .rules{margin-top:18px;font-size:clamp(12px,3.2vw,15px);color:#aab2c5;
-    line-height:1.9;max-width:34ch;text-align:left;}
+    line-height:1.8;max-width:30em;text-align:left;}
+  .rules .rule{padding-left:1.25em;text-indent:-1.25em;margin-bottom:5px;}
   .rules b{color:var(--neon-yellow);font-weight:900;}
 
   .btn{margin-top:26px;font-family:'Dela Gothic One',sans-serif;
@@ -67,11 +68,12 @@
     <div class="title"><span class="pink">渋谷</span> ぶつかり<br><span class="cyan">おじさん</span> 回避</div>
     <div class="sub">スクランブル交差点（概念）でぶつかりおじさん（BTOJSN）をよけて進め</div>
     <div class="rules">
-      ・指／マウスで移動（矢印キーも可）<br>
-      ・<b>BTOJSN</b>にぶつかられたら<b>ハートが減少</b><br>
-      ・<b>BTOJSN同士</b>をぶつけるとボーナスポイント<br>
-      ・<b>ゲージ</b>が満タンで <b>闘牛場</b>を召喚できる。闘牛がBTOJSNを蹴散らす<br>
-      ・<b>闘牛タイム中は無敵</b>（BTOJSNにも牛にもぶつからない）
+      <div class="rule">・指／マウスで移動（矢印キーも可）</div>
+      <div class="rule">・<b>BTOJSN</b>にぶつかられたら<b>ハートが減少</b></div>
+      <div class="rule">・<b>BTOJSN同士</b>をぶつけるとボーナスポイント</div>
+      <div class="rule">・<b>ゲージ</b>が満タンで <b>闘牛場</b>を召喚できる</div>
+      <div class="rule">・闘牛はBTOJSNだけを蹴散らす</div>
+      <div class="rule">・<b>闘牛タイムは無敵</b>（プレイヤーのハートは減らない）</div>
     </div>
     <button id="startBtn" class="btn">はじめる</button>
     <div class="credit">SHIBUYA SCRAMBLE / 闘牛場 MODE</div>
